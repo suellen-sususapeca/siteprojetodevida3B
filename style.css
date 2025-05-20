@@ -61,13 +61,31 @@ body {
 }
 
 
-.ativo {
+.botao.ativo {
     background-color: var (--botao-ativo);
     border-bottom: 4px solid var(--verde);
     
 }
 
-@media screen and (Min-Width: 768px) {
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo {
+    display: none;
+}
+.aba-conteudo-título-principal {
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-título-secundario {
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+
+@media screen and (Min-Width:
+ 768px) {
    .botoes {
     display:flex;
    }
